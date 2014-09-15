@@ -24,7 +24,7 @@ fallingBlocks.util = {
 
                 case 'number':
                     return isNaN(objectA) && isNaN(objectB)
-                        || objectA === objectB;
+                        || (Math.abs(objectA - objectB) < 0.5);
 
                 default:
                     return objectA === objectB;

@@ -3,7 +3,10 @@ fallingBlocks.geometry = fallingBlocks.game || {};
 
 fallingBlocks.geometry.transformMatrixDefinitionFactory = {
     getQuarterTurns: function (quarterTurns) {
-        var result;
+        var result, 
+            theta = Math.PI / 8,
+            a = Math.sin(theta),
+            b = Math.cos(theta);
 
         switch (fallingBlocks.util.mod(quarterTurns, 4)) {
             case 0:
@@ -16,8 +19,8 @@ fallingBlocks.geometry.transformMatrixDefinitionFactory = {
 
             case 1:
                 result = [
-                    [ 0, -1, 0 ],
-                    [ 1, 0, 0 ],
+                    [ b, a, 0 ],
+                    [ -a, b, 0 ],
                     [ 0, 0, 1 ]
                 ];
                 break;
@@ -32,8 +35,8 @@ fallingBlocks.geometry.transformMatrixDefinitionFactory = {
 
             case 3:
                 result = [
-                    [ 0, 1, 0 ],
-                    [ -1, 0, 0 ],
+                    [ b, -a, 0 ],
+                    [ a, b, 0 ],
                     [ 0, 0, 1 ]
                 ];
                 break;
@@ -44,7 +47,7 @@ fallingBlocks.geometry.transformMatrixDefinitionFactory = {
 
     getTranslation: function(x, y){
         return [
-            [ 1, 0, x ],
+            [ 1, 0, x/5 ],
             [ 0, 1, y ],
             [ 0, 0, 1 ]
         ];

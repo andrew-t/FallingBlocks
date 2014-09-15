@@ -23,7 +23,7 @@ fallingBlocks.landedBlocksCollection = function(columns, rows) {
 
             isLocationAllowable: function (location) {
                 return location.x >= 0
-                    && location.x < columns
+                    && location.x < columns + 0.5
                     && location.y >= 0;
             },
 

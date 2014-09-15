@@ -8,12 +8,12 @@ fallingBlocks.settings = {
         speedUpPercent: 10,
         spawnAreaRows: 5,
         colours: {
-            landedBlock: '#414141',
-            background: '#c4cfa1',
-            tetrimino: '#6b7353',
-            scoreBoardText: '#414141',
-            scoreBoardWell: '#c4cfa1',
-            scoreboardBackground: '#414141'
+            landedBlock: 'yellow',
+            background: 'black',
+            tetrimino: 'yellow',
+            scoreBoardText: 'yellow',
+            scoreBoardWell: 'black',
+            scoreboardBackground: 'yellow'
         },
         layout: {
             scoreBoardPadding: 5,

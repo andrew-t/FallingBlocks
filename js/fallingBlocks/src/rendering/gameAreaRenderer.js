@@ -13,9 +13,7 @@ fallingBlocks.rendering.gameAreaRenderer = function (blockSize, width, height, c
             }
 
             // render background
-            context.fillStyle = colours.background;
-            context.fillRect(0, 0, width, height);
-            //context.drawImage(giles, 0, 0, width, height);
+            context.drawImage(giles, 0, 0, width, height);
 
             // render landed blocks
             landedBlockLocations.forEach(function (blockLocation) {

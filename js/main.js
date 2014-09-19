@@ -1,4 +1,4 @@
-(function () {
+document.addEventListener('DOMContentLoaded', function () {
     var myCanvas = document.getElementById('MyCanvas'),
         inputSource = window.fallingBlocks.userInput.keyboardInputSource(myCanvas, window.fallingBlocks.settings.defaultKeyCodes),
         inputListener = window.fallingBlocks.userInput.inputListener(inputSource),
@@ -9,4 +9,4 @@
             window.fallingBlocks.tetriminoFactory);
 
     game.start();
-})();
+});

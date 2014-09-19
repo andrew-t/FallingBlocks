@@ -1,4 +1,4 @@
-var fallingBlocks = window.fallingBlocks = fallingBlocks || {};
+var fallingBlocks = window.fallingBlocks = window.fallingBlocks || {};
 fallingBlocks.userInput = fallingBlocks.userInput || {};
 
 fallingBlocks.userInput.inputListener = function (inputSource) {

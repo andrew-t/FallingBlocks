@@ -1,4 +1,4 @@
-var fallingBlocks = window.fallingBlocks = fallingBlocks || {};
+var fallingBlocks = window.fallingBlocks = window.fallingBlocks || {};
 
 fallingBlocks.geometry = fallingBlocks.geometry || {};
 fallingBlocks.geometry.transformVector = function (vectorDefinition) {

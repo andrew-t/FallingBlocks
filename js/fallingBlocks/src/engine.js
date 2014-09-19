@@ -1,4 +1,4 @@
-var fallingBlocks = window.fallingBlocks = fallingBlocks || {};
+var fallingBlocks = window.fallingBlocks = window.fallingBlocks || {};
 
 fallingBlocks.engine = function (gameState){
     function areLocationsAvailable (locations) {

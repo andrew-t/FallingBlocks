@@ -1,6 +1,6 @@
 var fallingBlocks = window.fallingBlocks = fallingBlocks || {};
-fallingBlocks.game = fallingBlocks.game || {};
 
+fallingBlocks.geometry = fallingBlocks.geometry || {};
 fallingBlocks.geometry.transformVector = function (vectorDefinition) {
     var definition = [].concat(vectorDefinition);
 

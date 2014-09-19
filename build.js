@@ -4,6 +4,8 @@ var fs = require('fs'),
 function doPath(path) {
 	if (path == './build.js') return;
 	if (/\/\./.test(path)) return;
+	if (/^\.\/test\//.test(path)) return;
+	if (/conf\.js$/.test(path)) return;
 	try {
 		// assume is dir
 		var files = fs.readdirSync(path);

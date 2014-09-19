@@ -1,4 +1,4 @@
-var fallingBlocks = fallingBlocks || {};
+var fallingBlocks = window.fallingBlocks = fallingBlocks || {};
 
 fallingBlocks.tetrimino = function (definition, initialLocation) {
     var relativeTransform = fallingBlocks.geometry.transform(),

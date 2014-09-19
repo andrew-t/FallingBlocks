@@ -1,4 +1,4 @@
-var fallingBlocks = fallingBlocks || {};
+var fallingBlocks = window.fallingBlocks = fallingBlocks || {};
 
 fallingBlocks.landedBlocksCollection = function(columns, rows) {
     var landedBlockLocations = [],

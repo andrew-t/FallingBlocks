@@ -1,12 +1,12 @@
 (function () {
     var myCanvas = document.getElementById('MyCanvas'),
-        inputSource = fallingBlocks.userInput.keyboardInputSource(myCanvas, fallingBlocks.settings.defaultKeyCodes),
-        inputListener = fallingBlocks.userInput.inputListener(inputSource),
-        game = fallingBlocks.game(
+        inputSource = window.fallingBlocks.userInput.keyboardInputSource(myCanvas, window.fallingBlocks.settings.defaultKeyCodes),
+        inputListener = window.fallingBlocks.userInput.inputListener(inputSource),
+        game = window.fallingBlocks.game(
             myCanvas,
             inputListener,
-            fallingBlocks.settings.defaultGameSettings,
-            fallingBlocks.tetriminoFactory);
+            window.fallingBlocks.settings.defaultGameSettings,
+            window.fallingBlocks.tetriminoFactory);
 
     game.start();
 })();

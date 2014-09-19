@@ -1,4 +1,4 @@
-var fallingBlocks = fallingBlocks || {};
+var fallingBlocks = window.fallingBlocks = fallingBlocks || {};
 fallingBlocks.userInput = fallingBlocks.game || {};
 
 fallingBlocks.userInput.keyboardInputSource = function(container, keyCodes){

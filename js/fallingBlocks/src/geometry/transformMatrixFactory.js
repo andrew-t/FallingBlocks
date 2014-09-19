@@ -1,4 +1,4 @@
-var fallingBlocks = fallingBlocks || {};
+var fallingBlocks = window.fallingBlocks = fallingBlocks || {};
 fallingBlocks.geometry = fallingBlocks.game || {};
 
 fallingBlocks.geometry.transformMatrixFactory = {

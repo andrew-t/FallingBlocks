@@ -1,4 +1,4 @@
-var fallingBlocks = fallingBlocks || {};
+var fallingBlocks = window.fallingBlocks = fallingBlocks || {};
 
 fallingBlocks.clock = function(initialInterval, speedUpPercent){
     var interval = initialInterval,

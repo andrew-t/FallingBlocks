@@ -1,4 +1,4 @@
-var fallingBlocks = fallingBlocks || {};
+var fallingBlocks = window.fallingBlocks = fallingBlocks || {};
 fallingBlocks.rendering = fallingBlocks.game || {};
 
 fallingBlocks.rendering.renderer = function (context, width, height, gameState, spawnAreaRows, colours, layout) {

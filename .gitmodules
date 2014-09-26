@@ -18,3 +18,6 @@
 	path = analogue
 	url = https://github.com/andrew-t/FallingBlocks.git
 	branch = analogue
+[submodule "original"]
+	path = original
+	url = https://github.com/gilessmart/FallingBlocks

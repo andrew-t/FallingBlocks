@@ -1,0 +1,20 @@
+[submodule "face-page"]
+	path = face
+	url = https://github.com/andrew-t/FallingBlocks.git
+	branch = face
+[submodule "giles-page"]
+	path = giles
+	url = https://github.com/andrew-t/FallingBlocks.git
+	branch = giles
+[submodule "trip-page"]
+	path = trip
+	url = https://github.com/andrew-t/FallingBlocks.git
+	branch = trip
+[submodule "star-wars-page"]
+	path = star-wars
+	url = https://github.com/andrew-t/FallingBlocks.git
+	branch = star-wars
+[submodule "analogue-page"]
+	path = analogue
+	url = https://github.com/andrew-t/FallingBlocks.git
+	branch = analogue

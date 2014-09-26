@@ -1,3 +1,0 @@
-* bug when rotating a tetrimino that has just spawned - rotating can result in a block rendering outside the playing area
-
-* block patterns
